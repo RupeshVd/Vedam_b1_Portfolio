@@ -221,3 +221,40 @@ body {
 @keyframes fillAnimation { 0% { width: 0%; } 100% { width: 75%; } }
 
 
+.sec-3{
+  padding: 100px 50px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.project-cont{
+  display: flex;
+  gap: 30px;
+}
+
+.project-img{
+  height: 200px;
+  overflow: hidden;
+}
+
+.project-img img {
+  height: 100%;
+  width: 100%;
+  transition: transform 0.3s ease;
+}
+
+.project-card{
+    background:  rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+     border: 1px solid rgba(255, 255, 255, 0.2);
+     transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover{
+   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+
+.project-card:hover .project-img img{
+   transform: scale(1.2);
+}
